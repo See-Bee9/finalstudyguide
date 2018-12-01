@@ -73,6 +73,11 @@ ___
 	* Multiple lines for multiple services. Similar to a bank teller, except multiple stations.
 	* **Typical example is a hospital admission.**
 		* User must go to triage, insurance, reception, ect. and multiple help desks exist
+
+**Examples of working line problems start on page 231 of the textbook**
+
+___
+### Chapter 11 Manufacturing 
 ___
 ### Chapter 12 Six Sigma
 ##### Methodology
