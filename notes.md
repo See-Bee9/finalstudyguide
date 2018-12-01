@@ -27,13 +27,11 @@ Where L is Average number of customers in the store
 W is Average time customer spends in store
 ___
 ### Chapter 01
+$Receivable \: Turnover = \frac{Annual \;Credit\;Sales}{Average\;Account\;Receivable}$
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" title="Receivable Turnover = \frac{Annual Credit Sales}{Average Account Receivable}" /></a>
+$Inventory\;Turnover= \frac{Cost\;of\;Goods\;Sold}{Average \; Inventory\; Value}$
 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" title="Inventory Turnover = \frac{Cost of Goods Sold}{Average Inventory Value}" /></a>
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" title="Asset Turnover = \frac{Revenue (or Sales)}{Total Assets}" /></a>
+$Asset \; Turnover = \frac{Revenue\,(or\;sales)}{Total\;Assets}$
 
 ```Quicker payments will reduce the average amount of accounts receivables, so the receivables turnover ratio will increase.```
 
