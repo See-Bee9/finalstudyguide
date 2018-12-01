@@ -21,7 +21,7 @@ ___
 ### Calculating averages
 
 ###### Simple moving average
-$\frac{\sum_{1}^{n}W_i}{n}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\sum_{1}^{n}W_i}{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{1}^{n}W_i}{n}" title="\frac{\sum_{1}^{n}W_i}{n}" /></a>
 
 ###### Weighted moving average
 <a href="https://www.codecogs.com/eqnedit.php?latex=$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" title="$X_1*W_1+X_2*W_2+X_3*W_3+...+X_n*W_n$" /></a>
