@@ -150,7 +150,7 @@ Same typical z values as p-charts
 ___
 ##### X-Bar and R-Charts
 ###### Used when taking samples that must fall within an acceptable range
-See Page 329 of the textbook
+**See Page 329 of the textbook**
 
 Number of observations in each sample | $A_2$| $D_3$ | $D_4$
 ---|---|---|---
