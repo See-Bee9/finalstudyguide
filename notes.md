@@ -13,10 +13,10 @@ In other words, the average of the N most recent items
 <a href="https://www.codecogs.com/eqnedit.php?latex=Where&space;$\sum_{n}W_n&space;=&space;1$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Where&space;$\sum_{n}W_n&space;=&space;1$" title="Where $\sum_{n}W_n = 1$" /></a>
 
 ###### Exponential Smoothing
-![Exponetial Smoothing](./expsmooth.gif)
+![Exponential Smoothing](./expsmooth.gif)
 
-![](fsubt.gif) The exponetially smoothed forecast for period *t*
-![](fsubtmone.gif) The exponetially smoothed forecast made for the prior period	
+![](fsubt.gif) The exponentially smoothed forecast for period *t*
+![](fsubtmone.gif) The exponentially smoothed forecast made for the prior period	
 ![](asubtmone.gif) The actual demand in the prior period
 ![](alpha.gif) The desired response rate, or smoothing constant
 
@@ -52,7 +52,7 @@ Chart examples are on page 305 of the textbook
 * Flow Charts
   * Used in the define stage of a product
 * Run charts
-  * Depict trends over time and hepl in the define stage
+  * Depict trends over time and help in the define stage
 * Pareto charts
 	* These charts help to break down a problem into the relative contributions of its components, based on the idea that 80% of problems are caused by 20% of causes
 * Checksheets
@@ -66,3 +66,16 @@ Chart examples are on page 305 of the textbook
 	![Fishbone](./fishbone.gif)
 ___
 ## Chapter 23 Theory of Constraints
+
+Eli Goldratt in his book *The Goal* observed that improving flow time through a resource that was not a bottleneck would not improve over all production time.
+
+Goldratt's Rules of Production Scheduling
+1. Do not balance capacity - balance the flow
+2. The level of utilization of a nonbottleneck resource is determined not by its own potential but by some other constraint in the system.
+3. Utilization and activation of a resource are not the same.
+4. An hour lost at a bottleneck is an hour lost for the entire system
+5. An hour saved at a nonbottleneck is a mirage.
+6. Bottlenecks govern both throughput and inventory in the system.
+7. The transfer batch may not, and many times should not, be equal to the process batch.
+8. A process batch should be variable both along its route and in time.
+9. Priorities can be set only by examining the system's constraints. Lead time is a derivative of the schedule.
