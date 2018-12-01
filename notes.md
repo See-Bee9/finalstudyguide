@@ -15,6 +15,7 @@ ___
 
 ______
 ### Chapter 4
+Critical Path method
 ![CPM](./cpm.png)
 
 ___
@@ -44,7 +45,7 @@ Where L is Average number of customers in the store
 <a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is the effective arrival rate
 W is Average time customer spends in store
 ___
-### Chapter 12
+### Chapter 12 Six Sigma
 
 ##### Six sigma charts
 Chart examples are on page 305 of the textbook
@@ -62,4 +63,7 @@ Chart examples are on page 305 of the textbook
 	* The rest consists of lines drawn across the page, attached to the problem statement, and several lines or "bones" coming out vertically from the main line.
 	
 	Fishbone diagram example
+	
 	![Fishbone](./fishbone.gif)
+___
+## Chapter 23 Theory of Constraints
