@@ -1,4 +1,4 @@
-# MBA 511
+# MBA 511 Final Exam Study Guide
 ___
 ### Calculating averages
 
@@ -20,7 +20,7 @@ In other words, the average of the N most recent items
 ![](asubtmone.gif) The actual demand in the prior period
 ![](alpha.gif) The desired response rate, or smoothing constant
 
-###### Littles Law
+###### Little's Law
 <a href="https://www.codecogs.com/eqnedit.php?latex=$L&space;=&space;\lambda&space;W$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$L&space;=&space;\lambda&space;W$" title="$L = \lambda W$" /></a>
 Where L is Average number of customers in the store
 <a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is the effective arrival rate
@@ -39,10 +39,40 @@ ___
 
 
 ______
-### Chapter 4
-Critical Path method
+### Chapter 4 Critical Path Method
+
+* Top left - Early Start
+* Top right - Early Finish
+* Bottom left - Late Start
+* Bottom right - Late Finish
+
+First propagate through the early starts. Once that is calculated, use back propagation to determine late start.
+
+`Late Start - Early Start = Slack Time`
+
+**Any path with 0 slack time is part of the critical path**
+
 ![CPM](./cpm.png)
 
+___
+### Chapter 10 Waiting Line Analysis and Simulation
+
+#### Phases and Channels
+* Single channel, Single phase
+	* Only one line, only one station
+	* **Typical example is a single chair barbershop**
+* Single channel, Multi phase
+	* Only one line, multiple stations
+	* **Typical example is a car wash**
+		* Users move through vacuums, wetting, washing, rinsing, ect.
+* Multichannel, single phase
+	* Multiple lines to go through, but each station provides only a single stop
+	* **Typical example is a bank teller**
+		* A bank has multiple tellers, but a customer will only visit a single teller
+* Multichannel, multiphase
+	* Multiple lines for multiple services. Similar to a bank teller, except multiple stations.
+	* **Typical example is a hospital admission.**
+		* User must go to triage, insurance, reception, ect. and multiple help desks exist
 ___
 ### Chapter 12 Six Sigma
 ##### Methodology
