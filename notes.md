@@ -34,10 +34,9 @@ In other words, the average of the N most recent items
 ![Exponetial Smoothing](./expsmooth.gif)
 
 ![](fsubt.gif) The exponetially smoothed forecast for period *t*
-
-![](fsubtmone.gif) The exponetially smoothed forecast made for the prior period
-	
+![](fsubtmone.gif) The exponetially smoothed forecast made for the prior period	
 ![](asubtmone.gif) The actual demand in the prior period
+![](alpha.gif) The desired response rate, or smoothing constant
 
 ###### Littles Law
 <a href="https://www.codecogs.com/eqnedit.php?latex=$L&space;=&space;\lambda&space;W$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$L&space;=&space;\lambda&space;W$" title="$L = \lambda W$" /></a>
