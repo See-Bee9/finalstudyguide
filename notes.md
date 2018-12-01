@@ -55,6 +55,16 @@ First propagate through the early starts. Once that is calculated, use back prop
 ![CPM](cpm.png)
 
 ___
+### Chapter 5 Strategic capacity management
+*Capacity utilization rate* $=\frac{Capacity\;Used}{Best\:Operating\:Level}$
+
+###### Capacity terms
+Term|Time Period
+---|---
+Short|  < 1 months
+Medium | 6 to 18 months
+Long | >1 Year
+___
 ### Chapter 10 Waiting Line Analysis and Simulation
 
 #### Phases and Channels
