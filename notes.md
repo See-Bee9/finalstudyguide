@@ -21,17 +21,17 @@ ___
 ### Calculating averages
 
 ###### Simple moving average
-$\frac{\sum_{1}^{n}W_i}{n}$
+<a href="https://www.codecogs.com/eqnedit.php?latex=$\frac{\sum_{1}^{n}W_i}{n}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\frac{\sum_{1}^{n}W_i}{n}$" title="$\frac{\sum_{1}^{n}W_i}{n}$" /></a>
 
 ###### Weighted moving average
-$X_1*W_1+X_2*W_2+X_3*W_3+...+X_n*W_n$
+<a href="https://www.codecogs.com/eqnedit.php?latex=$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" title="$X_1*W_1+X_2*W_2+X_3*W_3+...+X_n*W_n$" /></a>
 
-Where $\sum_{n}W_n = 1$
+<a href="https://www.codecogs.com/eqnedit.php?latex=Where&space;$\sum_{n}W_n&space;=&space;1$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Where&space;$\sum_{n}W_n&space;=&space;1$" title="Where $\sum_{n}W_n = 1$" /></a>
 
 ###### Littles Law
-$L = \lambda W$
+<a href="https://www.codecogs.com/eqnedit.php?latex=$L&space;=&space;\lambda&space;W$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$L&space;=&space;\lambda&space;W$" title="$L = \lambda W$" /></a>
 Where L is Average number of customers in the store
-$\lambda$ is effective arival rate
+<a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is the effective arrival rate
 W is Average time customer spends in store
 
 ### Chapter 12
