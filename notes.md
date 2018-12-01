@@ -1,24 +1,5 @@
 # MBA 511
 ___
-
-### Chapter 01
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" title="Receivable Turnover = \frac{Annual Credit Sales}{Average Account Receivable}" /></a>
-
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" title="Inventory Turnover = \frac{Cost of Goods Sold}{Average Inventory Value}" /></a>
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" title="Asset Turnover = \frac{Revenue (or Sales)}{Total Assets}" /></a>
-
-```Quicker payments will reduce the average amount of accounts receivables, so the receivables turnover ratio will increase.```
-
-
-______
-### Chapter 4
-Critical Path method
-![CPM](./cpm.png)
-
-___
 ### Calculating averages
 
 ###### Simple moving average
@@ -45,6 +26,24 @@ Where L is Average number of customers in the store
 <a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is the effective arrival rate
 W is Average time customer spends in store
 ___
+### Chapter 01
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" title="Receivable Turnover = \frac{Annual Credit Sales}{Average Account Receivable}" /></a>
+
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" title="Inventory Turnover = \frac{Cost of Goods Sold}{Average Inventory Value}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" title="Asset Turnover = \frac{Revenue (or Sales)}{Total Assets}" /></a>
+
+```Quicker payments will reduce the average amount of accounts receivables, so the receivables turnover ratio will increase.```
+
+
+______
+### Chapter 4
+Critical Path method
+![CPM](./cpm.png)
+
+___
 ### Chapter 12 Six Sigma
 
 ##### Six sigma charts
@@ -63,7 +62,7 @@ Chart examples are on page 305 of the textbook
 	* The rest consists of lines drawn across the page, attached to the problem statement, and several lines or "bones" coming out vertically from the main line.
 	
 	Fishbone diagram example
-	
+
 	![Fishbone](./fishbone.gif)
 ___
 ## Chapter 23 Theory of Constraints
