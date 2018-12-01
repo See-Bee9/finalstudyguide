@@ -35,7 +35,12 @@ $Asset \; Turnover = \frac{Revenue\,(or\;sales)}{Total\;Assets}$
 
 ```Quicker payments will reduce the average amount of accounts receivables, so the receivables turnover ratio will increase.```
 
+___
+### Chapter 2 Strategy, Products, and Capacity
 
+Productivity = $\frac{Outputs}{inputs}$
+
+Capacity Utilization Rate = $\frac{Units\;of\;Output}{Peak\:Units}$
 ______
 ### Chapter 4 Critical Path Method
 
@@ -190,6 +195,13 @@ Number of observations in each sample | $A_2$| $D_3$ | $D_4$
 
 **Lower control limit for** $R = D_3 \overline{R}$
 
+___
+## Chapter 19 Sales and Operations Planning
+
+###### Production Planning Strategies
+1. **Chase Strategy.** Match the production rate to the order rate by hiring and laying off employees as the order rate varies.
+2. **Stable workforce -- variable work hours.** Vary the output by varying the number of hours worked through flexible schedule or over-time,
+3. **Level strategy.** Maintain a stable workforce working at a constant output.
 
 ___
 ## Chapter 23 Theory of Constraints
