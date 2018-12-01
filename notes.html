@@ -1,0 +1,337 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js">
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head><body class="markdown-body">
+<h1 id="mba-511-final-exam-study-guide" data-line="NaN" class="code-line code-line code-line" id="mba-511-final-exam-study-guide-1" id="mba-511-final-exam-study-guide-2">MBA 511 Final Exam Study Guide</h1>
+<hr>
+<h3 id="calculating-averages" data-line="NaN" class="code-line code-line code-line" id="calculating-averages-1" id="calculating-averages-2">Calculating averages</h3>
+<h6 id="simple-moving-average" data-line="NaN" class="code-line code-line code-line" id="simple-moving-average-1" id="simple-moving-average-2">Simple moving average</h6>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\sum_{1}^{n}W_i}{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\sum_{1}^{n}W_i}{n}" title="\frac{\sum_{1}^{n}W_i}{n}" /></a></p>
+<p data-line="NaN" class="code-line code-line code-line">In other words, the average of the N most recent items</p>
+<h6 id="weighted-moving-average" data-line="NaN" class="code-line code-line code-line" id="weighted-moving-average-1" id="weighted-moving-average-2">Weighted moving average</h6>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$X_1*W_1&plus;X_2*W_2&plus;X_3*W_3&plus;...&plus;X_n*W_n$" title="$X_1*W_1+X_2*W_2+X_3*W_3+...+X_n*W_n$" /></a></p>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=Where&space;$\sum_{n}W_n&space;=&space;1$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Where&space;$\sum_{n}W_n&space;=&space;1$" title="Where $\sum_{n}W_n = 1$" /></a></p>
+<h6 id="exponential-smoothing" data-line="NaN" class="code-line code-line code-line" id="exponential-smoothing-1" id="exponential-smoothing-2">Exponential Smoothing</h6>
+<p data-line="NaN" class="code-line code-line code-line"><img src="/c:/Users/See_Bee/OneDrive/MBA/MBA%20511/Final%20Notes/expsmooth.gif" alt="Exponential Smoothing" class="loading loading loading" id="image-hash-070fc27cf67c6c0b2b69767ddd2ced809029a126713100c66354e02f35730a05"></p>
+<p data-line="NaN" class="code-line code-line code-line"><img src="fsubt.gif" alt="" class="loading loading loading" id="image-hash-d84e27ba96a3b0654197cc53b382e85a18912248aea8850bb5283847869f70de"> The exponentially smoothed forecast for period <em>t</em>
+<img src="fsubtmone.gif" alt="" class="loading loading loading" id="image-hash-79032a0f4a9b07ab3e3b0d3d598dd84a7ae9fd677335e03939066cf3f7cd3c89"> The exponentially smoothed forecast made for the prior period	
+<img src="asubtmone.gif" alt="" class="loading loading loading" id="image-hash-ad95240bc54ddedcf5e6fcc316527605ee5d8775fbede5b3bfa6735d305c0423"> The actual demand in the prior period
+<img src="alpha.gif" alt="" class="loading loading loading" id="image-hash-06f585bec1cd863ea9041e04f6a9f9efa57f201d4f1d6cf8c32c31066d3ef1a0"> The desired response rate, or smoothing constant</p>
+<h6 id="littles-law" data-line="NaN" class="code-line code-line code-line" id="littles-law-1" id="littles-law-2">Little's Law</h6>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=$L&space;=&space;\lambda&space;W$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$L&space;=&space;\lambda&space;W$" title="$L = \lambda W$" /></a>
+Where L is Average number of customers in the store
+<a href="https://www.codecogs.com/eqnedit.php?latex=$\lambda$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lambda$" title="$\lambda$" /></a> is the effective arrival rate
+W is Average time customer spends in store</p>
+<hr>
+<h3 id="chapter-01" data-line="NaN" class="code-line code-line code-line" id="chapter-01-1" id="chapter-01-2">Chapter 01</h3>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Receivable&space;Turnover&space;=&space;\frac{Annual&space;Credit&space;Sales}{Average&space;Account&space;Receivable}" title="Receivable Turnover = \frac{Annual Credit Sales}{Average Account Receivable}" /></a></p>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Inventory&space;Turnover&space;=&space;\frac{Cost&space;of&space;Goods&space;Sold}{Average&space;Inventory&space;Value}" title="Inventory Turnover = \frac{Cost of Goods Sold}{Average Inventory Value}" /></a></p>
+<p data-line="NaN" class="code-line code-line code-line"><a href="https://www.codecogs.com/eqnedit.php?latex=Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Asset&space;Turnover&space;=&space;\frac{Revenue&space;(or&space;Sales)}{Total&space;Assets}" title="Asset Turnover = \frac{Revenue (or Sales)}{Total Assets}" /></a></p>
+<p data-line="NaN" class="code-line code-line code-line"><code>Quicker payments will reduce the average amount of accounts receivables, so the receivables turnover ratio will increase.</code></p>
+<hr>
+<h3 id="chapter-4-critical-path-method" data-line="NaN" class="code-line code-line code-line" id="chapter-4-critical-path-method-1" id="chapter-4-critical-path-method-2">Chapter 4 Critical Path Method</h3>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Top left - Early Start</li>
+<li data-line="NaN" class="code-line code-line code-line">Top right - Early Finish</li>
+<li data-line="NaN" class="code-line code-line code-line">Bottom left - Late Start</li>
+<li data-line="NaN" class="code-line code-line code-line">Bottom right - Late Finish</li>
+</ul>
+<p data-line="NaN" class="code-line code-line code-line">First propagate through the early starts. Once that is calculated, use back propagation to determine late start.</p>
+<p data-line="NaN" class="code-line code-line code-line"><code>Late Start - Early Start = Slack Time</code></p>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Any path with 0 slack time is part of the critical path</strong></p>
+<p data-line="NaN" class="code-line code-line code-line"><img src="cpm.png" alt="CPM" class="loading loading loading" id="image-hash-c7fe41d454cfea23dc94c445332c58e8a91364f2a5002c49bba741217829929c"></p>
+<hr>
+<h3 id="chapter-10-waiting-line-analysis-and-simulation" data-line="NaN" class="code-line code-line code-line" id="chapter-10-waiting-line-analysis-and-simulation-1" id="chapter-10-waiting-line-analysis-and-simulation-2">Chapter 10 Waiting Line Analysis and Simulation</h3>
+<h4 id="phases-and-channels" data-line="NaN" class="code-line code-line code-line" id="phases-and-channels-1" id="phases-and-channels-2">Phases and Channels</h4>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Single channel, Single phase
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Only one line, only one station</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Typical example is a single chair barbershop</strong></li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">Single channel, Multi phase
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Only one line, multiple stations</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Typical example is a car wash</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Users move through vacuums, wetting, washing, rinsing, ect.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">Multichannel, single phase
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Multiple lines to go through, but each station provides only a single stop</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Typical example is a bank teller</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">A bank has multiple tellers, but a customer will only visit a single teller</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">Multichannel, multiphase
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Multiple lines for multiple services. Similar to a bank teller, except multiple stations.</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Typical example is a hospital admission.</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">User must go to triage, insurance, reception, ect. and multiple help desks exist</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Examples of working line problems start on page 231 of the textbook</strong></p>
+<hr>
+<h3 id="chapter-12-six-sigma" data-line="NaN" class="code-line code-line code-line" id="chapter-12-six-sigma-1" id="chapter-12-six-sigma-2">Chapter 12 Six Sigma</h3>
+<h5 id="methodology" data-line="NaN" class="code-line code-line code-line" id="methodology-1" id="methodology-2">Methodology</h5>
+<ol>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Define (D)</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Identify customers and their priorities.</li>
+<li data-line="NaN" class="code-line code-line code-line">Identify a project suitable for Six Sigma efforts based on business objectives as well as customer needs and feedback.</li>
+<li data-line="NaN" class="code-line code-line code-line">Identify critical-to-quality characteristics (CTQs) that the customer believes have the most impact on quality.</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Measure (M)</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Determine how to measure the process and how it is performing.</li>
+<li data-line="NaN" class="code-line code-line code-line">Identify the key internal process that influence CTQs and measure the defects currently generated relative to those processes.</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Analyze (A)</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Determine the most likely causes of defects.</li>
+<li data-line="NaN" class="code-line code-line code-line">Understand why defects are generated by identifying the key variables most likely to create process variation.</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Improve (I)</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Identify means to remove the cause of defects</li>
+<li data-line="NaN" class="code-line code-line code-line">Confirm the key variables and quantify their effects on the CTQs.</li>
+<li data-line="NaN" class="code-line code-line code-line">Identify the maximum acceptance ranges of the key variables and a system for measuring deviations of the variables.</li>
+<li data-line="NaN" class="code-line code-line code-line">Modify the process to stay within an acceptable range.</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line"><strong>Control (C)</strong>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Determine how to maintain the improvements</li>
+<li data-line="NaN" class="code-line code-line code-line">Put tools in place to ensure that the key variables remain within the maximum acceptance ranges under the modified process.</li>
+</ul>
+</li>
+</ol>
+<h5 id="six-sigma-charts" data-line="NaN" class="code-line code-line code-line" id="six-sigma-charts-1" id="six-sigma-charts-2">Six sigma charts</h5>
+<p data-line="NaN" class="code-line code-line code-line">Chart examples are on page 305 of the textbook</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">
+<p data-line="NaN" class="code-line code-line code-line">Flow Charts</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Used in the define stage of a product</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">
+<p data-line="NaN" class="code-line code-line code-line">Run charts</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">Depict trends over time and help in the define stage</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">
+<p data-line="NaN" class="code-line code-line code-line">Pareto charts</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">These charts help to break down a problem into the relative contributions of its components, based on the idea that 80% of problems are caused by 20% of causes</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">
+<p data-line="NaN" class="code-line code-line code-line">Checksheets</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">These are basic forms that help standardize data collections.</li>
+</ul>
+</li>
+<li data-line="NaN" class="code-line code-line code-line">
+<p data-line="NaN" class="code-line code-line code-line">Fishbone (aka Cause and Effect Diagram)</p>
+<ul>
+<li data-line="NaN" class="code-line code-line code-line">To construct, start with a why? question. Why are pizza deliveries late on Friday and Saturday nights?</li>
+<li data-line="NaN" class="code-line code-line code-line">The rest consists of lines drawn across the page, attached to the problem statement, and several lines or &quot;bones&quot; coming out vertically from the main line.</li>
+</ul>
+<p data-line="NaN" class="code-line code-line code-line">Fishbone diagram example</p>
+</li>
+</ul>
+<p data-line="NaN" class="code-line code-line code-line"><img src="fishbone.gif" alt="Fishbone" class="loading loading loading" id="image-hash-d57a4888fd63bd00a3edc862467a6aa1d8970854d48d060b9cef425f24df398d"></p>
+<hr>
+<h2 id="chapter-13-quality-control" data-line="NaN" class="code-line code-line code-line" id="chapter-13-quality-control-1" id="chapter-13-quality-control-2">Chapter 13 Quality Control</h2>
+<h5 id="p-charts" data-line="NaN" class="code-line code-line code-line" id="p-charts-1" id="p-charts-2">P-charts</h5>
+<h6 id="used-when-a-product-is-either-good-or-it-is-bad" data-line="NaN" class="code-line code-line code-line" id="used-when-a-product-is-either-good-or-it-is-bad-1" id="used-when-a-product-is-either-good-or-it-is-bad-2">Used when a product is either good or it is bad</h6>
+<p data-line="NaN" class="code-line code-line code-line"><img src="pbar.gif" alt="" class="loading loading loading" id="image-hash-fdc4bfb8d5aea5bf0067e4625d42cb9e71ff192d48e35ecb006cf60f1e7aa715"></p>
+<p data-line="NaN" class="code-line code-line code-line">Standard deviation
+<img src="stdp.gif" alt="" class="loading loading loading" id="image-hash-adbcf11bf34deffa0c2a43e25fcacb124cb2db60fba37405c679453ba9179a52">
+UCL
+<img src="pucl.gif" alt="" class="loading loading loading" id="image-hash-968ea8a267a1c17c19c9008985da2c84ba9d71790e0d80f4fcc0edb2357f49c2">
+LCL
+<img src="plcl.gif" alt="" class="loading loading loading" id="image-hash-5a4489735c4491cd7515483ab1d5a61dc2585607eebefe4d4cf3cfab0a45f8f8">
+<em>z</em> is confidence rating. A typical value is <img src="zet.gif" alt="" class="loading loading loading" id="image-hash-fc69b60ca553f45a4f448e8c892bc2c99427f35daeba808d730c0d47f0788c5b"> (99.7% confidence) or <img src="zetw.gif" alt="" class="loading loading loading" id="image-hash-95fb778afc0bdc4709f09be460b14c48ca472617cae4f81867bab0614ba946af"> (99% confidence)</p>
+<hr>
+<h5 id="c-charts" data-line="NaN" class="code-line code-line code-line" id="c-charts-1" id="c-charts-2">C-charts</h5>
+<h6 id="used-when-the-product-can-have-multiple-defects-such-as-a-board-of-lumber-with-more-than-one-knot" data-line="NaN" class="code-line code-line code-line" id="used-when-the-product-can-have-multiple-defects-such-as-a-board-of-lumber-with-more-than-one-knot-1" id="used-when-the-product-can-have-multiple-defects-such-as-a-board-of-lumber-with-more-than-one-knot-2">Used when the product can have multiple defects; such as a board of lumber with more than one knot</h6>
+<p data-line="NaN" class="code-line code-line code-line"><img src="cbar.gif" alt="" class="loading loading loading" id="image-hash-6c3d4681dd7d883d4425a2deaead2847200ba4e2129fbb5d9349044e916749de"> Average number of defects per unit
+Standard deviation
+<img src="cstd.gif" alt="" class="loading loading loading" id="image-hash-371f3bee33c3ef9c61f2a4abbc331b77bac63f6d7cf1b799d04da9780d3a650f">
+UCL
+UCL = <img src="cucl.gif" alt="" class="loading loading loading" id="image-hash-9456f047ce9e66460fa346dceda7cb08bf7c7a897d8ae4252ba3a992bd43e092">
+LCL
+LCL = <img src="clclm.gif" alt="" class="loading loading loading" id="image-hash-7c1838d63881d2cdabd0fa2497d1c40152008668cb34bfd5dbafaa6fea022608"> or 0, whichever is greater</p>
+<p data-line="NaN" class="code-line code-line code-line">Same typical z values as p-charts</p>
+<hr>
+<h5 id="x-bar-and-r-charts" data-line="NaN" class="code-line code-line code-line" id="x-bar-and-r-charts-1" id="x-bar-and-r-charts-2">X-Bar and R-Charts</h5>
+<h6 id="used-when-taking-samples-that-must-fall-within-an-acceptable-range" data-line="NaN" class="code-line code-line code-line" id="used-when-taking-samples-that-must-fall-within-an-acceptable-range-1" id="used-when-taking-samples-that-must-fall-within-an-acceptable-range-2">Used when taking samples that must fall within an acceptable range</h6>
+<p data-line="NaN" class="code-line code-line code-line">See Page 329 of the textbook</p>
+<table>
+<thead>
+<tr>
+<th>Number of observations in each sample</th>
+<th><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>A</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">A_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></eq></th>
+<th><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>D</mi><mn>3</mn></msub></mrow><annotation encoding="application/x-tex">D_3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></eq></th>
+<th><eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>D</mi><mn>4</mn></msub></mrow><annotation encoding="application/x-tex">D_4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></eq></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>1.88</td>
+<td>0</td>
+<td>3.27</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1.02</td>
+<td>0</td>
+<td>2.57</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0.73</td>
+<td>0</td>
+<td>2.28</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0.58</td>
+<td>0</td>
+<td>2.11</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0.48</td>
+<td>0</td>
+<td>2.00</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0.42</td>
+<td>0.08</td>
+<td>1.92</td>
+</tr>
+<tr>
+<td>8</td>
+<td>0.37</td>
+<td>0.14</td>
+<td>1.86</td>
+</tr>
+<tr>
+<td>9</td>
+<td>0.34</td>
+<td>0.18</td>
+<td>1.82</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0.31</td>
+<td>0.22</td>
+<td>1.78</td>
+</tr>
+<tr>
+<td>11</td>
+<td>0.29</td>
+<td>0.26</td>
+<td>1.74</td>
+</tr>
+<tr>
+<td>12</td>
+<td>0.27</td>
+<td>0.28</td>
+<td>1.72</td>
+</tr>
+<tr>
+<td>13</td>
+<td>0.25</td>
+<td>0.31</td>
+<td>1.69</td>
+</tr>
+<tr>
+<td>14</td>
+<td>0.24</td>
+<td>0.33</td>
+<td>1.67</td>
+</tr>
+<tr>
+<td>15</td>
+<td>0.22</td>
+<td>0.35</td>
+<td>1.65</td>
+</tr>
+<tr>
+<td>16</td>
+<td>0.21</td>
+<td>0.36</td>
+<td>1.64</td>
+</tr>
+<tr>
+<td>17</td>
+<td>0.20</td>
+<td>0.38</td>
+<td>1.62</td>
+</tr>
+<tr>
+<td>18</td>
+<td>0.19</td>
+<td>0.39</td>
+<td>1.61</td>
+</tr>
+<tr>
+<td>19</td>
+<td>0.19</td>
+<td>0.40</td>
+<td>1.60</td>
+</tr>
+<tr>
+<td>20</td>
+<td>0.18</td>
+<td>0.41</td>
+<td>1.59</td>
+</tr>
+</tbody>
+</table>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Upper control limit for</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mi>X</mi><mo stretchy="true">‾</mo></mover><mo>=</mo><mover accent="true"><mover accent="true"><mi>x</mi><mo stretchy="true">‾</mo></mover><mo stretchy="true">‾</mo></mover><mo>+</mo><msub><mi>A</mi><mn>2</mn></msub><mover accent="true"><mi>R</mi><mo stretchy="true">‾</mo></mover></mrow><annotation encoding="application/x-tex">\overline{X} = \overline{\overline{x}}+A_2\overline{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8833300000000001em;vertical-align:0em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.9138900000000001em;vertical-align:-0.08333em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8305600000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.63056em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3.55056em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.75056em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.03333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span></eq></p>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Lower control limit for</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mi>X</mi><mo stretchy="true">‾</mo></mover><mo>=</mo><mover accent="true"><mover accent="true"><mi>X</mi><mo stretchy="true">‾</mo></mover><mo stretchy="true">‾</mo></mover><mrow><msub><mi>A</mi><mn>2</mn></msub><mover accent="true"><mi>R</mi><mo stretchy="true">‾</mo></mover></mrow></mrow><annotation encoding="application/x-tex">\overline{X} = \overline{\overline{X}}{A_2\overline{R}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8833300000000001em;vertical-align:0em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.23333em;vertical-align:-0.15em;"></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.0833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-4.00333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span></span></eq></p>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Upper control limit for</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>=</mo><msub><mi>D</mi><mn>4</mn></msub><mover accent="true"><mi>R</mi><mo stretchy="true">‾</mo></mover></mrow><annotation encoding="application/x-tex">R = D_4 \overline{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.03333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span></eq></p>
+<p data-line="NaN" class="code-line code-line code-line"><strong>Lower control limit for</strong> <eq><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>=</mo><msub><mi>D</mi><mn>3</mn></msub><mover accent="true"><mi>R</mi><mo stretchy="true">‾</mo></mover></mrow><annotation encoding="application/x-tex">R = D_3 \overline{R}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.03333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span></eq></p>
+<hr>
+<h2 id="chapter-23-theory-of-constraints" data-line="NaN" class="code-line code-line code-line" id="chapter-23-theory-of-constraints-1" id="chapter-23-theory-of-constraints-2">Chapter 23 Theory of Constraints</h2>
+<p data-line="NaN" class="code-line code-line code-line">Eli Goldratt in his book <em>The Goal</em> observed that improving flow time through a resource that was not a bottleneck would not improve over all production time.</p>
+<p data-line="NaN" class="code-line code-line code-line">Goldratt's Rules of Production Scheduling</p>
+<ol>
+<li data-line="NaN" class="code-line code-line code-line">Do not balance capacity - balance the flow</li>
+<li data-line="NaN" class="code-line code-line code-line">The level of utilization of a nonbottleneck resource is determined not by its own potential but by some other constraint in the system.</li>
+<li data-line="NaN" class="code-line code-line code-line">Utilization and activation of a resource are not the same.</li>
+<li data-line="NaN" class="code-line code-line code-line">An hour lost at a bottleneck is an hour lost for the entire system</li>
+<li data-line="NaN" class="code-line code-line code-line">An hour saved at a nonbottleneck is a mirage.</li>
+<li data-line="NaN" class="code-line code-line code-line">Bottlenecks govern both throughput and inventory in the system.</li>
+<li data-line="NaN" class="code-line code-line code-line">The transfer batch may not, and many times should not, be equal to the process batch.</li>
+<li data-line="NaN" class="code-line code-line code-line">A process batch should be variable both along its route and in time.</li>
+<li data-line="NaN" class="code-line code-line code-line">Priorities can be set only by examining the system's constraints. Lead time is a derivative of the schedule.</li>
+</ol>
+
+</body></html>

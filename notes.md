@@ -13,7 +13,7 @@ In other words, the average of the N most recent items
 <a href="https://www.codecogs.com/eqnedit.php?latex=Where&space;$\sum_{n}W_n&space;=&space;1$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Where&space;$\sum_{n}W_n&space;=&space;1$" title="Where $\sum_{n}W_n = 1$" /></a>
 
 ###### Exponential Smoothing
-![Exponential Smoothing](./expsmooth.gif)
+![Exponential Smoothing](expsmooth.gif)
 
 ![](fsubt.gif) The exponentially smoothed forecast for period *t*
 ![](fsubtmone.gif) The exponentially smoothed forecast made for the prior period	
@@ -52,7 +52,7 @@ First propagate through the early starts. Once that is calculated, use back prop
 
 **Any path with 0 slack time is part of the critical path**
 
-![CPM](./cpm.png)
+![CPM](cpm.png)
 
 ___
 ### Chapter 10 Waiting Line Analysis and Simulation
@@ -76,8 +76,6 @@ ___
 
 **Examples of working line problems start on page 231 of the textbook**
 
-___
-### Chapter 11 Manufacturing 
 ___
 ### Chapter 12 Six Sigma
 ##### Methodology
@@ -116,8 +114,75 @@ Chart examples are on page 305 of the textbook
 	* The rest consists of lines drawn across the page, attached to the problem statement, and several lines or "bones" coming out vertically from the main line.
 	
 	Fishbone diagram example
+	
 
-	![Fishbone](./fishbone.gif)
+![Fishbone](fishbone.gif)
+
+___
+## Chapter 13 Quality Control
+
+##### P-charts
+###### Used when a product is either good or it is bad
+
+![](pbar.gif)
+
+Standard deviation
+![](stdp.gif)
+UCL
+![](pucl.gif)
+LCL
+![](plcl.gif)
+*z* is confidence rating. A typical value is ![](zet.gif) (99.7% confidence) or ![](zetw.gif) (99% confidence)
+_____
+##### C-charts
+###### Used when the product can have multiple defects; such as a board of lumber with more than one knot
+
+![](cbar.gif) Average number of defects per unit
+Standard deviation
+![](cstd.gif)
+UCL
+UCL = ![](cucl.gif)
+LCL
+LCL = ![](clclm.gif) or 0, whichever is greater
+
+Same typical z values as p-charts
+
+___
+##### X-Bar and R-Charts
+###### Used when taking samples that must fall within an acceptable range
+See Page 329 of the textbook
+
+Number of observations in each sample | $A_2$| $D_3$ | $D_4$
+---|---|---|---
+2|1.88|0|3.27
+3|1.02|0|2.57
+4|0.73| 0|2.28
+5|0.58| 0|2.11
+6|0.48| 0|2.00
+7|0.42|0.08 |1.92
+8| 0.37|0.14 |1.86
+9|0.34 |0.18|1.82
+10|0.31 |0.22|1.78
+11|0.29|0.26|1.74
+12|0.27|0.28|1.72
+13|0.25|0.31|1.69
+14|0.24|0.33|1.67
+15|0.22|0.35|1.65
+16|0.21|0.36|1.64
+17|0.20|0.38|1.62
+18|0.19|0.39|1.61
+19|0.19|0.40|1.60
+20|0.18|0.41|1.59
+
+**Upper control limit for** $\overline{X} = \overline{\overline{x}}+A_2\overline{R}$
+
+**Lower control limit for** $\overline{X} = \overline{\overline{X}}{A_2\overline{R}}$
+
+**Upper control limit for** $R = D_4 \overline{R}$
+
+**Lower control limit for** $R = D_3 \overline{R}$
+
+
 ___
 ## Chapter 23 Theory of Constraints
 
